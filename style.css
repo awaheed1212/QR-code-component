@@ -1,0 +1,48 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+.container {
+  display: flex;
+  width: 100wh;
+  height: 100vh;
+  background-color: var(--Light-gray);
+  justify-content: center;
+  align-items: center;
+}
+.qrbox {
+  background-color: var(--White);
+  /* margin: 20px 20px; */
+  padding: 25px 25px;
+  width: 400px;
+  height: 600px;
+  border-radius: 4%;
+}
+.qrimg {
+  justify-content: center;
+}
+img {
+  width: 405px;
+  border-radius: 4%;
+}
+.qrtext {
+  justify-content: center;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0px 10px;
+  line-height: 40px;
+  text-align: center;
+}
+p {
+  color: grey;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: -20px;
+}
